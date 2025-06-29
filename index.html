@@ -680,26 +680,78 @@
         }
 
         @media (max-width: 768px) {
+            .slide {
+                padding: 18px 5px;
+                margin: 18px 0;
+                min-height: unset;
+            }
+            .slide-title {
+                font-size: 1.3em;
+                margin-bottom: 10px;
+            }
+            .slide-subtitle {
+                font-size: 1em;
+                margin-bottom: 18px;
+            }
+            .slide-header {
+                margin-bottom: 15px;
+            }
+            .slide-logo {
+                height: 36px;
+            }
             .content-grid {
                 grid-template-columns: 1fr;
-                gap: 30px;
+                gap: 15px;
             }
-            
-            .comparison-container {
+            .stats-container {
                 grid-template-columns: 1fr;
+                gap: 10px;
+                margin: 10px 0;
             }
-            
-            .slide-title {
-                font-size: 2.5em;
+            .stat-box {
+                padding: 12px 8px;
+                font-size: 0.95em;
             }
-            
+            .stat-icon {
+                font-size: 1.5em;
+            }
+            .stat-label {
+                font-size: 0.9em;
+            }
+            .objective-box {
+                padding: 15px 8px;
+                font-size: 1em;
+            }
+            .chart-container {
+                padding: 8px;
+                height: 120px;
+            }
+        }
+        @media (max-width: 480px) {
             .slide {
-                padding: 30px;
-                margin: 30px 0;
+                padding: 8px 2px;
+                margin: 8px 0;
             }
-
-            .objectives-grid {
-                grid-template-columns: 1fr;
+            .slide-title {
+                font-size: 1em;
+            }
+            .slide-subtitle {
+                font-size: 0.9em;
+            }
+            .slide-logo {
+                height: 28px;
+            }
+            .stat-box {
+                padding: 8px 4px;
+                font-size: 0.9em;
+            }
+            .objective-box {
+                padding: 8px 4px;
+                font-size: 0.95em;
+            }
+            .chart-container {
+                padding: 4px;
+                height: 90px;
             }
         }
 
